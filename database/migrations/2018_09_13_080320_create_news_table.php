@@ -1,9 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Create1525005431CompaniesTable extends Migration
+class NewsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,18 +13,15 @@ class Create1525005431CompaniesTable extends Migration
      */
     public function up()
     {
-        if(! Schema::hasTable('companies')) {
-            Schema::create('companies', function (Blueprint $table) {
+            Schema::create('news', function (Blueprint $table) {
                 $table->increments('id');
-                $table->string('name')->nullable();
-                $table->text('description')->nullable();
-                
-                $table->timestamps();
-                $table->softDeletes();
+                $table->string('name_imf')->nullable();
+                $table->string('imf')->nullable();
+                $table->string('img')->nullable();
 
+                $table->timestamps();
                 $table->index(['deleted_at']);
             });
-        }
     }
 
     /**
@@ -33,6 +31,6 @@ class Create1525005431CompaniesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('companies');
+        Schema::dropIfExists('news');
     }
 }

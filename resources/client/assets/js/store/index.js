@@ -5,10 +5,8 @@ import RolesIndex from './modules/Roles'
 import RolesSingle from './modules/Roles/single'
 import UsersIndex from './modules/Users'
 import UsersSingle from './modules/Users/single'
-import CompaniesIndex from './modules/Companies'
-import CompaniesSingle from './modules/Companies/single'
-import EmployeesIndex from './modules/Employees'
-import EmployeesSingle from './modules/Employees/single'
+import NewsIndex from './modules/News'
+import NewsSingle from './modules/News/single'
 
 import Alert from './modules/alert'
 import ChangePassword from './modules/change_password'
@@ -25,10 +23,8 @@ export default new Vuex.Store({
         RolesSingle,
         UsersIndex,
         UsersSingle,
-        CompaniesIndex,
-        CompaniesSingle,
-        EmployeesIndex,
-        EmployeesSingle,
+        NewsIndex,
+        NewsSingle,
     },
     strict: debug,
 })

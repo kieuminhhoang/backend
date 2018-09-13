@@ -8,7 +8,7 @@
             <li>
                 <a href="{{ url('/') }}">
                     <i class="fa fa-wrench"></i>
-                    <span class="title">@lang('quickadmin.qa_dashboard')</span>
+                    <span class="title">{{ ('Back Home') }}</span>
                 </a>
             </li>
 
@@ -42,12 +42,12 @@
             </li><li>
                 <router-link :to="{ name: 'companies.index' }">
                     <i class="fa fa-gears"></i>
-                    <span class="title">@lang('quickadmin.companies.title')</span>
+                    <span class="title">{{ ('Show News') }}</span>
                 </router-link>
             </li><li>
                 <router-link :to="{ name: 'employees.index' }">
                     <i class="fa fa-gears"></i>
-                    <span class="title">@lang('quickadmin.employees.title')</span>
+                    <span class="title">{{ ('Create News') }}</span>
                 </router-link>
             </li>
 

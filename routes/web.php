@@ -1,6 +1,10 @@
 <?php
 
-Route::get('/', function () {
+Route::get('/', function() {
+	return view('welcome');
+});
+
+Route::get('admin', function () {
     return redirect('/admin/home');
 });
 

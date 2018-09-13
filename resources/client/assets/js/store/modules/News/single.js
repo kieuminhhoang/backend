@@ -2,13 +2,11 @@ function initialState() {
     return {
         item: {
             id: null,
-            company: null,
-            first_name: null,
-            last_name: null,
-            email: null,
-            phone: null,
+            name: null,
+            imf: null,
+            img: null,
         },
-        companiesAll: [],
+        usersAll: [],
         loading: false,
     }
 }
@@ -16,7 +14,7 @@ function initialState() {
 const getters = {
     item: state => state.item,
     loading: state => state.loading,
-    companiesAll: state => state.companiesAll,
+    usersAll: state => state.usersAll,
 }
 
 const actions = {
@@ -26,11 +24,11 @@ const actions = {
 
         return new Promise((resolve, reject) => {
             let params = _.cloneDeep(state.item)
-            if (! _.isEmpty(params.company)) {
-                params.company_id = params.company.id
+            if (! _.isEmpty(params.user)) {
+                params.user_id = params.user.id
             }
 
-            axios.post('/api/v1/employees', params)
+            axios.post('/api/v1/news', params)
                 .then(response => {
                     commit('resetState')
                     resolve()
@@ -57,11 +55,11 @@ const actions = {
 
         return new Promise((resolve, reject) => {
             let params = _.cloneDeep(state.item)
-            if (! _.isEmpty(params.company)) {
-                params.company_id = params.company.id
+            if (! _.isEmpty(params.user)) {
+                params.user_id = params.user.id
             }
 
-            axios.put('/api/v1/employees/' + params.id, params)
+            axios.put('/api/v1/news/' + params.id, params)
                 .then(response => {
                     commit('setItem', response.data.data)
                     resolve()
@@ -83,37 +81,32 @@ const actions = {
         })
     },
     fetchData({ commit, dispatch }, id) {
-        axios.get('/api/v1/employees/' + id)
+        axios.get('/api/v1/news/' + id)
             .then(response => {
                 commit('setItem', response.data.data)
             })
 
-        dispatch('fetchCompaniesAll')
+        dispatch('fetchUsersAll')
     },
     fetchCompaniesAll({ commit }) {
-        axios.get('/api/v1/companies')
+        axios.get('/api/v1/news')
             .then(response => {
-                commit('setCompaniesAll', response.data.data)
+                commit('setUsersAll', response.data.data)
             })
     },
     setCompany({ commit }, value) {
-        commit('setCompany', value)
+        commit('setUser', value)
     },
     setFirst_name({ commit }, value) {
-        commit('setFirst_name', value)
+        commit('setname', value)
     },
     setLast_name({ commit }, value) {
-        commit('setLast_name', value)
+        commit('setimg', value)
     },
     setEmail({ commit }, value) {
-        commit('setEmail', value)
+        commit('setimf', value)
     },
-    setPhone({ commit }, value) {
-        commit('setPhone', value)
-    },
-    resetState({ commit }) {
-        commit('resetState')
-    }
+
 }
 
 const mutations = {
@@ -121,22 +114,16 @@ const mutations = {
         state.item = item
     },
     setCompany(state, value) {
-        state.item.company = value
+        state.item.name = value
     },
     setFirst_name(state, value) {
-        state.item.first_name = value
+        state.item.imf = value
     },
     setLast_name(state, value) {
-        state.item.last_name = value
+        state.item.img = value
     },
-    setEmail(state, value) {
-        state.item.email = value
-    },
-    setPhone(state, value) {
-        state.item.phone = value
-    },
-    setCompaniesAll(state, value) {
-        state.companiesAll = value
+    setUsersAll(state, value) {
+        state.usersAll = value
     },
     setLoading(state, loading) {
         state.loading = loading
