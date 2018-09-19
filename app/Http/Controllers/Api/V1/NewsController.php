@@ -13,13 +13,16 @@ class NewsController extends Controller
 {
     public function index()
     {
-        return new NewsResource(News::with([])->get());
+        return new NewsResource(News::with(['user'])->get());
     }
+
     public function show($id)
     {
-        $news = News::with([])->findOrFail($id);
+        $news = News::with(['user'])->findOrFail($id);
+
         return new NewsResource($news);
     }
+
     public function store(StoreNewsRequest $request)
     {
         $news = News::create($request->all());
@@ -28,6 +31,7 @@ class NewsController extends Controller
             ->response()
             ->setStatusCode(201);
     }
+
     public function update(UpdateNewsRequest $request, $id)
     {
         $news = News::findOrFail($id);
@@ -37,6 +41,7 @@ class NewsController extends Controller
             ->response()
             ->setStatusCode(202);
     }
+
     public function destroy($id)
     {
         $news = News::findOrFail($id);

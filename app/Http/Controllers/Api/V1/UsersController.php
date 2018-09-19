@@ -9,8 +9,6 @@ use App\Http\Requests\Admin\StoreUsersRequest;
 use App\Http\Requests\Admin\UpdateUsersRequest;
 use Illuminate\Http\Request;
 
-
-
 class UsersController extends Controller
 {
     public function index()
@@ -29,7 +27,6 @@ class UsersController extends Controller
     {
         $user = User::create($request->all());
         
-
         return (new UserResource($user))
             ->response()
             ->setStatusCode(201);
@@ -39,7 +36,6 @@ class UsersController extends Controller
     {
         $user = User::findOrFail($id);
         $user->update($request->all());
-        
 
         return (new UserResource($user))
             ->response()

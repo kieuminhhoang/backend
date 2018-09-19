@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/ExampleComponent.vue":
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/news/index/bBody.vue":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21,12 +21,2442 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        console.log('Component mounted.');
-    }
-});
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/news/index/fBody.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/news/index/hBody.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -3962,6 +6392,51 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3b5bd0e8\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/bBody.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-96132a24\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/hBody.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-e724e628\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/fBody.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/popper.js/dist/esm/popper.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6492,7 +8967,7 @@ Popper.Defaults = Defaults;
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-0ca92eac\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/ExampleComponent.vue":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-3b5bd0e8\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/news/index/bBody.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -6506,21 +8981,6337 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card card-default" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
+    return _c("div", { staticClass: "world-catagory-area mt-50" }, [
+      _c(
+        "ul",
+        {
+          staticClass: "nav nav-tabs",
+          attrs: { id: "myTab2", role: "tablist" }
+        },
+        [
+          _c("li", { staticClass: "title" }, [_vm._v("What's Trending")]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link active",
+                attrs: {
+                  id: "tab10",
+                  "data-toggle": "tab",
+                  href: "#world-tab-10",
+                  role: "tab",
+                  "aria-controls": "world-tab-10",
+                  "aria-selected": "true"
+                }
+              },
+              [_vm._v("All")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: {
+                  id: "tab11",
+                  "data-toggle": "tab",
+                  href: "#world-tab-11",
+                  role: "tab",
+                  "aria-controls": "world-tab-11",
+                  "aria-selected": "false"
+                }
+              },
+              [_vm._v("Style hunter")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: {
+                  id: "tab12",
+                  "data-toggle": "tab",
+                  href: "#world-tab-12",
+                  role: "tab",
+                  "aria-controls": "world-tab-12",
+                  "aria-selected": "false"
+                }
+              },
+              [_vm._v("Vogue")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: {
+                  id: "tab13",
+                  "data-toggle": "tab",
+                  href: "#world-tab-13",
+                  role: "tab",
+                  "aria-controls": "world-tab-13",
+                  "aria-selected": "false"
+                }
+              },
+              [_vm._v("Health & Fitness")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: {
+                  id: "tab14",
+                  "data-toggle": "tab",
+                  href: "#world-tab-14",
+                  role: "tab",
+                  "aria-controls": "world-tab-14",
+                  "aria-selected": "false"
+                }
+              },
+              [_vm._v("Travel")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link",
+                attrs: {
+                  id: "tab15",
+                  "data-toggle": "tab",
+                  href: "#world-tab-15",
+                  role: "tab",
+                  "aria-controls": "world-tab-15",
+                  "aria-selected": "false"
+                }
+              },
+              [_vm._v("Gadgets")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "nav-item dropdown" }, [
+            _c(
+              "a",
+              {
+                staticClass: "nav-link dropdown-toggle",
+                attrs: {
+                  "data-toggle": "dropdown",
+                  href: "#",
+                  role: "button",
+                  "aria-haspopup": "true",
+                  "aria-expanded": "false"
+                }
+              },
+              [_vm._v("More")]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
+            _c("div", { staticClass: "dropdown-menu" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: {
+                    id: "tab16",
+                    "data-toggle": "tab",
+                    href: "#world-tab-16",
+                    role: "tab",
+                    "aria-controls": "world-tab-16",
+                    "aria-selected": "false"
+                  }
+                },
+                [_vm._v("Sports")]
+              ),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: {
+                    id: "tab17",
+                    "data-toggle": "tab",
+                    href: "#world-tab-17",
+                    role: "tab",
+                    "aria-controls": "world-tab-17",
+                    "aria-selected": "false"
+                  }
+                },
+                [_vm._v("Politices")]
+              ),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: {
+                    id: "tab18",
+                    "data-toggle": "tab",
+                    href: "#world-tab-18",
+                    role: "tab",
+                    "aria-controls": "world-tab-18",
+                    "aria-selected": "false"
+                  }
+                },
+                [_vm._v("Features")]
               )
             ])
           ])
-        ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "tab-content", attrs: { id: "myTabContent2" } },
+        [
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade show active",
+              attrs: {
+                id: "world-tab-10",
+                role: "tabpanel",
+                "aria-labelledby": "tab10"
+              }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "single-blog-post wow fadeInUpBig",
+                      attrs: { "data-wow-delay": "0.2s" }
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "single-blog-post wow fadeInUpBig",
+                      attrs: { "data-wow-delay": "0.3s" }
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "world-catagory-slider2 owl-carousel wow fadeInUpBig",
+                      attrs: { "data-wow-delay": "0.4s" }
+                    },
+                    [
+                      _c("div", { staticClass: "single-cata-slide" }, [
+                        _c("div", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-12 col-md-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                              },
+                              [
+                                _c("div", { staticClass: "post-thumbnail" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      src: "img/blog-img/b14.jpg",
+                                      alt: ""
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "post-content" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "headline",
+                                      attrs: { href: "#" }
+                                    },
+                                    [
+                                      _c("h5", [
+                                        _vm._v(
+                                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "post-meta" }, [
+                                    _c("p", [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-author",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Katy Liu")]
+                                      ),
+                                      _vm._v(" on "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-date",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                      )
+                                    ])
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-12 col-md-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                              },
+                              [
+                                _c("div", { staticClass: "post-thumbnail" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      src: "img/blog-img/b15.jpg",
+                                      alt: ""
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "post-content" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "headline",
+                                      attrs: { href: "#" }
+                                    },
+                                    [
+                                      _c("h5", [
+                                        _vm._v(
+                                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "post-meta" }, [
+                                    _c("p", [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-author",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Katy Liu")]
+                                      ),
+                                      _vm._v(" on "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-date",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                      )
+                                    ])
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-12 col-md-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                              },
+                              [
+                                _c("div", { staticClass: "post-thumbnail" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      src: "img/blog-img/b16.jpg",
+                                      alt: ""
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "post-content" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "headline",
+                                      attrs: { href: "#" }
+                                    },
+                                    [
+                                      _c("h5", [
+                                        _vm._v(
+                                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "post-meta" }, [
+                                    _c("p", [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-author",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Katy Liu")]
+                                      ),
+                                      _vm._v(" on "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-date",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                      )
+                                    ])
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-12 col-md-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                              },
+                              [
+                                _c("div", { staticClass: "post-thumbnail" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      src: "img/blog-img/b17.jpg",
+                                      alt: ""
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "post-content" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "headline",
+                                      attrs: { href: "#" }
+                                    },
+                                    [
+                                      _c("h5", [
+                                        _vm._v(
+                                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "post-meta" }, [
+                                    _c("p", [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-author",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Katy Liu")]
+                                      ),
+                                      _vm._v(" on "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-date",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                      )
+                                    ])
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "single-cata-slide" }, [
+                        _c("div", { staticClass: "row" }, [
+                          _c("div", { staticClass: "col-12 col-md-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                              },
+                              [
+                                _c("div", { staticClass: "post-thumbnail" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      src: "img/blog-img/b17.jpg",
+                                      alt: ""
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "post-content" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "headline",
+                                      attrs: { href: "#" }
+                                    },
+                                    [
+                                      _c("h5", [
+                                        _vm._v(
+                                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "post-meta" }, [
+                                    _c("p", [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-author",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Katy Liu")]
+                                      ),
+                                      _vm._v(" on "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-date",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                      )
+                                    ])
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-12 col-md-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                              },
+                              [
+                                _c("div", { staticClass: "post-thumbnail" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      src: "img/blog-img/b15.jpg",
+                                      alt: ""
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "post-content" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "headline",
+                                      attrs: { href: "#" }
+                                    },
+                                    [
+                                      _c("h5", [
+                                        _vm._v(
+                                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "post-meta" }, [
+                                    _c("p", [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-author",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Katy Liu")]
+                                      ),
+                                      _vm._v(" on "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-date",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                      )
+                                    ])
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-12 col-md-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                              },
+                              [
+                                _c("div", { staticClass: "post-thumbnail" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      src: "img/blog-img/b14.jpg",
+                                      alt: ""
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "post-content" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "headline",
+                                      attrs: { href: "#" }
+                                    },
+                                    [
+                                      _c("h5", [
+                                        _vm._v(
+                                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "post-meta" }, [
+                                    _c("p", [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-author",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Katy Liu")]
+                                      ),
+                                      _vm._v(" on "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-date",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                      )
+                                    ])
+                                  ])
+                                ])
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "col-12 col-md-6" }, [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                              },
+                              [
+                                _c("div", { staticClass: "post-thumbnail" }, [
+                                  _c("img", {
+                                    attrs: {
+                                      src: "img/blog-img/b16.jpg",
+                                      alt: ""
+                                    }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c("div", { staticClass: "post-content" }, [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "headline",
+                                      attrs: { href: "#" }
+                                    },
+                                    [
+                                      _c("h5", [
+                                        _vm._v(
+                                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "post-meta" }, [
+                                    _c("p", [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-author",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Katy Liu")]
+                                      ),
+                                      _vm._v(" on "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass: "post-date",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                      )
+                                    ])
+                                  ])
+                                ])
+                              ]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "world-tab-11",
+                role: "tabpanel",
+                "aria-labelledby": "tab11"
+              }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b14.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b15.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b16.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b17.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "world-tab-12",
+                role: "tabpanel",
+                "aria-labelledby": "tab12"
+              }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "world-tab-13",
+                role: "tabpanel",
+                "aria-labelledby": "tab13"
+              }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b14.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b15.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b16.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b17.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b14.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b15.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b16.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b17.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "world-tab-14",
+                role: "tabpanel",
+                "aria-labelledby": "tab14"
+              }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b14.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b15.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b16.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b17.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "world-tab-15",
+                role: "tabpanel",
+                "aria-labelledby": "tab15"
+              }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b14.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b15.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b16.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b17.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "world-tab-16",
+                role: "tabpanel",
+                "aria-labelledby": "tab16"
+              }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b14.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b15.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b16.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b17.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "world-tab-17",
+                role: "tabpanel",
+                "aria-labelledby": "tab17"
+              }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b14.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b15.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b16.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b17.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "tab-pane fade",
+              attrs: {
+                id: "world-tab-18",
+                role: "tabpanel",
+                "aria-labelledby": "tab18"
+              }
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c("div", { staticClass: "single-blog-post" }, [
+                    _c("div", { staticClass: "post-thumbnail" }, [
+                      _c("img", {
+                        attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-cta" }, [
+                        _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "post-content" }, [
+                      _c(
+                        "a",
+                        { staticClass: "headline", attrs: { href: "#" } },
+                        [
+                          _c("h5", [
+                            _vm._v(
+                              "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-meta" }, [
+                        _c("p", [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "post-author",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Katy Liu")]
+                          ),
+                          _vm._v(" on "),
+                          _c(
+                            "a",
+                            { staticClass: "post-date", attrs: { href: "#" } },
+                            [_vm._v("Sep 29, 2017 at 9:48 am")]
+                          )
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b14.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b15.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b16.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-6" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "single-blog-post post-style-2 d-flex align-items-center mb-1"
+                    },
+                    [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b17.jpg", alt: "" }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          )
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-3b5bd0e8", module.exports)
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-96132a24\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/news/index/hBody.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "post-content-area mb-50" }, [
+      _c("div", { staticClass: "world-catagory-area" }, [
+        _c(
+          "ul",
+          {
+            staticClass: "nav nav-tabs",
+            attrs: { id: "myTab", role: "tablist" }
+          },
+          [
+            _c("li", { staticClass: "title" }, [_vm._v("Don’t Miss")]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link active",
+                  attrs: {
+                    id: "tab1",
+                    "data-toggle": "tab",
+                    href: "#world-tab-1",
+                    role: "tab",
+                    "aria-controls": "world-tab-1",
+                    "aria-selected": "true"
+                  }
+                },
+                [_vm._v("All")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: {
+                    id: "tab2",
+                    "data-toggle": "tab",
+                    href: "#world-tab-2",
+                    role: "tab",
+                    "aria-controls": "world-tab-2",
+                    "aria-selected": "false"
+                  }
+                },
+                [_vm._v("Style hunter")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: {
+                    id: "tab3",
+                    "data-toggle": "tab",
+                    href: "#world-tab-3",
+                    role: "tab",
+                    "aria-controls": "world-tab-3",
+                    "aria-selected": "false"
+                  }
+                },
+                [_vm._v("Vogue")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: {
+                    id: "tab4",
+                    "data-toggle": "tab",
+                    href: "#world-tab-4",
+                    role: "tab",
+                    "aria-controls": "world-tab-4",
+                    "aria-selected": "false"
+                  }
+                },
+                [_vm._v("Health & Fitness")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: {
+                    id: "tab5",
+                    "data-toggle": "tab",
+                    href: "#world-tab-5",
+                    role: "tab",
+                    "aria-controls": "world-tab-5",
+                    "aria-selected": "false"
+                  }
+                },
+                [_vm._v("Travel")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link",
+                  attrs: {
+                    id: "tab6",
+                    "data-toggle": "tab",
+                    href: "#world-tab-6",
+                    role: "tab",
+                    "aria-controls": "world-tab-6",
+                    "aria-selected": "false"
+                  }
+                },
+                [_vm._v("Gadgets")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item dropdown" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "nav-link dropdown-toggle",
+                  attrs: {
+                    "data-toggle": "dropdown",
+                    href: "#",
+                    role: "button",
+                    "aria-haspopup": "true",
+                    "aria-expanded": "false"
+                  }
+                },
+                [_vm._v("More")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "dropdown-menu" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link",
+                    attrs: {
+                      id: "tab7",
+                      "data-toggle": "tab",
+                      href: "#world-tab-7",
+                      role: "tab",
+                      "aria-controls": "world-tab-7",
+                      "aria-selected": "false"
+                    }
+                  },
+                  [_vm._v("Sports")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link",
+                    attrs: {
+                      id: "tab8",
+                      "data-toggle": "tab",
+                      href: "#world-tab-8",
+                      role: "tab",
+                      "aria-controls": "world-tab-8",
+                      "aria-selected": "false"
+                    }
+                  },
+                  [_vm._v("Politices")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link",
+                    attrs: {
+                      id: "tab9",
+                      "data-toggle": "tab",
+                      href: "#world-tab-9",
+                      role: "tab",
+                      "aria-controls": "world-tab-9",
+                      "aria-selected": "false"
+                    }
+                  },
+                  [_vm._v("Features")]
+                )
+              ])
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "tab-content", attrs: { id: "myTabContent" } },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade show active",
+                attrs: {
+                  id: "world-tab-1",
+                  role: "tabpanel",
+                  "aria-labelledby": "tab1"
+                }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "world-catagory-slider owl-carousel wow fadeInUpBig",
+                        attrs: { "data-wow-delay": "0.1s" }
+                      },
+                      [
+                        _c("div", { staticClass: "single-blog-post" }, [
+                          _c("div", { staticClass: "post-thumbnail" }, [
+                            _c("img", {
+                              attrs: { src: "img/blog-img/b1.jpg", alt: "" }
+                            }),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "post-cta" }, [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("travel")
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-content" }, [
+                            _c(
+                              "a",
+                              { staticClass: "headline", attrs: { href: "#" } },
+                              [
+                                _c("h5", [
+                                  _vm._v(
+                                    "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "post-meta" }, [
+                              _c("p", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "post-author",
+                                    attrs: { href: "#" }
+                                  },
+                                  [_vm._v("Katy Liu")]
+                                ),
+                                _vm._v(" on "),
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "post-date",
+                                    attrs: { href: "#" }
+                                  },
+                                  [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                )
+                              ])
+                            ])
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "single-blog-post" }, [
+                          _c("div", { staticClass: "post-thumbnail" }, [
+                            _c("img", {
+                              attrs: { src: "img/blog-img/b2.jpg", alt: "" }
+                            }),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "post-cta" }, [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("travel")
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-content" }, [
+                            _c(
+                              "a",
+                              { staticClass: "headline", attrs: { href: "#" } },
+                              [
+                                _c("h5", [
+                                  _vm._v(
+                                    "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "post-meta" }, [
+                              _c("p", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "post-author",
+                                    attrs: { href: "#" }
+                                  },
+                                  [_vm._v("Katy Liu")]
+                                ),
+                                _vm._v(" on "),
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "post-date",
+                                    attrs: { href: "#" }
+                                  },
+                                  [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                )
+                              ])
+                            ])
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "single-blog-post" }, [
+                          _c("div", { staticClass: "post-thumbnail" }, [
+                            _c("img", {
+                              attrs: { src: "img/blog-img/b3.jpg", alt: "" }
+                            }),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "post-cta" }, [
+                              _c("a", { attrs: { href: "#" } }, [
+                                _vm._v("travel")
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-content" }, [
+                            _c(
+                              "a",
+                              { staticClass: "headline", attrs: { href: "#" } },
+                              [
+                                _c("h5", [
+                                  _vm._v(
+                                    "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("p", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "post-meta" }, [
+                              _c("p", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "post-author",
+                                    attrs: { href: "#" }
+                                  },
+                                  [_vm._v("Katy Liu")]
+                                ),
+                                _vm._v(" on "),
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "post-date",
+                                    attrs: { href: "#" }
+                                  },
+                                  [_vm._v("Sep 29, 2017 at 9:48 am")]
+                                )
+                              ])
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig",
+                        attrs: { "data-wow-delay": "0.2s" }
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig",
+                        attrs: { "data-wow-delay": "0.3s" }
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig",
+                        attrs: { "data-wow-delay": "0.4s" }
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig",
+                        attrs: { "data-wow-delay": "0.5s" }
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "world-tab-2",
+                  role: "tabpanel",
+                  "aria-labelledby": "tab2"
+                }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c("div", { staticClass: "single-blog-post" }, [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b1.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "world-tab-3",
+                  role: "tabpanel",
+                  "aria-labelledby": "tab3"
+                }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c("div", { staticClass: "single-blog-post" }, [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b1.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "world-tab-4",
+                  role: "tabpanel",
+                  "aria-labelledby": "tab4"
+                }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c("div", { staticClass: "single-blog-post" }, [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b1.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "world-tab-5",
+                  role: "tabpanel",
+                  "aria-labelledby": "tab5"
+                }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c("div", { staticClass: "single-blog-post" }, [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b1.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "world-tab-6",
+                  role: "tabpanel",
+                  "aria-labelledby": "tab6"
+                }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c("div", { staticClass: "single-blog-post" }, [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b1.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "world-tab-7",
+                  role: "tabpanel",
+                  "aria-labelledby": "tab7"
+                }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c("div", { staticClass: "single-blog-post" }, [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b1.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "world-tab-8",
+                  role: "tabpanel",
+                  "aria-labelledby": "tab8"
+                }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c("div", { staticClass: "single-blog-post" }, [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b1.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade",
+                attrs: {
+                  id: "world-tab-9",
+                  role: "tabpanel",
+                  "aria-labelledby": "tab9"
+                }
+              },
+              [
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c("div", { staticClass: "single-blog-post" }, [
+                      _c("div", { staticClass: "post-thumbnail" }, [
+                        _c("img", {
+                          attrs: { src: "img/blog-img/b1.jpg", alt: "" }
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-cta" }, [
+                          _c("a", { attrs: { href: "#" } }, [_vm._v("travel")])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "post-content" }, [
+                        _c(
+                          "a",
+                          { staticClass: "headline", attrs: { href: "#" } },
+                          [
+                            _c("h5", [
+                              _vm._v(
+                                "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v(
+                            "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in..."
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-meta" }, [
+                          _c("p", [
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-author",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Katy Liu")]
+                            ),
+                            _vm._v(" on "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "post-date",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sep 29, 2017 at 9:48 am")]
+                            )
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "single-blog-post post-style-2 d-flex align-items-center"
+                      },
+                      [
+                        _c("div", { staticClass: "post-thumbnail" }, [
+                          _c("img", {
+                            attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "post-content" }, [
+                          _c(
+                            "a",
+                            { staticClass: "headline", attrs: { href: "#" } },
+                            [
+                              _c("h5", [
+                                _vm._v(
+                                  "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "post-meta" }, [
+                            _c("p", [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-author",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Katy Liu")]
+                              ),
+                              _vm._v(" on "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "post-date",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Sep 29, 2017 at 9:48 am")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ]
+            )
+          ]
+        )
       ])
     ])
   }
@@ -6530,37 +15321,355 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0ca92eac", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-96132a24", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ "./resources/assets/js/app.js":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-e724e628\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/news/index/fBody.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 col-md-8 col-lg-4" }, [
+      _c(
+        "div",
+        {
+          staticClass: "post-sidebar-area wow fadeInUpBig",
+          attrs: { "data-wow-delay": "0.2s" }
+        },
+        [
+          _c("div", { staticClass: "sidebar-widget-area" }, [
+            _c("h5", { staticClass: "title" }, [_vm._v("About World")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "widget-content" }, [
+              _c("p", [
+                _vm._v(
+                  "The mango is perfect in that it is always yellow and if it’s not, I don’t want to hear about it. The mango’s only flaw, and it’s a minor one, is the effort it sometimes takes to undress the mango, carve it up in a way that makes sense, and find its way to the mouth."
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "sidebar-widget-area" }, [
+            _c("h5", { staticClass: "title" }, [_vm._v("Top Stories")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "widget-content" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "single-blog-post post-style-2 d-flex align-items-center widget-post"
+                },
+                [
+                  _c("div", { staticClass: "post-thumbnail" }, [
+                    _c("img", {
+                      attrs: { src: "img/blog-img/b11.jpg", alt: "" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "post-content" }, [
+                    _c("a", { staticClass: "headline", attrs: { href: "#" } }, [
+                      _c("h5", { staticClass: "mb-0" }, [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "single-blog-post post-style-2 d-flex align-items-center widget-post"
+                },
+                [
+                  _c("div", { staticClass: "post-thumbnail" }, [
+                    _c("img", {
+                      attrs: { src: "img/blog-img/b13.jpg", alt: "" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "post-content" }, [
+                    _c("a", { staticClass: "headline", attrs: { href: "#" } }, [
+                      _c("h5", { staticClass: "mb-0" }, [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "single-blog-post post-style-2 d-flex align-items-center widget-post"
+                },
+                [
+                  _c("div", { staticClass: "post-thumbnail" }, [
+                    _c("img", {
+                      attrs: { src: "img/blog-img/b14.jpg", alt: "" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "post-content" }, [
+                    _c("a", { staticClass: "headline", attrs: { href: "#" } }, [
+                      _c("h5", { staticClass: "mb-0" }, [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "single-blog-post post-style-2 d-flex align-items-center widget-post"
+                },
+                [
+                  _c("div", { staticClass: "post-thumbnail" }, [
+                    _c("img", {
+                      attrs: { src: "img/blog-img/b10.jpg", alt: "" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "post-content" }, [
+                    _c("a", { staticClass: "headline", attrs: { href: "#" } }, [
+                      _c("h5", { staticClass: "mb-0" }, [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "single-blog-post post-style-2 d-flex align-items-center widget-post"
+                },
+                [
+                  _c("div", { staticClass: "post-thumbnail" }, [
+                    _c("img", {
+                      attrs: { src: "img/blog-img/b12.jpg", alt: "" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "post-content" }, [
+                    _c("a", { staticClass: "headline", attrs: { href: "#" } }, [
+                      _c("h5", { staticClass: "mb-0" }, [
+                        _vm._v(
+                          "How Did van Gogh’s Turbulent Mind Depict One of the Most"
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "sidebar-widget-area" }, [
+            _c("h5", { staticClass: "title" }, [_vm._v("Stay Connected")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "widget-content" }, [
+              _c(
+                "div",
+                { staticClass: "social-area d-flex justify-content-between" },
+                [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("i", { staticClass: "fa fa-facebook" })
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("i", { staticClass: "fa fa-twitter" })
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("i", { staticClass: "fa fa-pinterest" })
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("i", { staticClass: "fa fa-vimeo" })
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("i", { staticClass: "fa fa-instagram" })
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { attrs: { href: "#" } }, [
+                    _c("i", { staticClass: "fa fa-google" })
+                  ])
+                ]
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "sidebar-widget-area" }, [
+            _c("h5", { staticClass: "title" }, [_vm._v("Today’s Pick")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "widget-content" }, [
+              _c("div", { staticClass: "single-blog-post todays-pick" }, [
+                _c("div", { staticClass: "post-thumbnail" }, [
+                  _c("img", { attrs: { src: "img/blog-img/b22.jpg", alt: "" } })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "post-content px-0 pb-0" }, [
+                  _c("a", { staticClass: "headline", attrs: { href: "#" } }, [
+                    _c("h5", [
+                      _vm._v(
+                        "How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?"
+                      )
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-e724e628", module.exports)
+  }
+}
 
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+/***/ }),
 
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3b5bd0e8\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/bBody.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3b5bd0e8\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/bBody.vue");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js")("1eff2a2a", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../../node_modules/css-loader/index.js!../../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3b5bd0e8\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./bBody.vue", function() {
+     var newContent = require("!!../../../../../../node_modules/css-loader/index.js!../../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3b5bd0e8\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./bBody.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-96132a24\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/hBody.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-96132a24\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/hBody.vue");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js")("490654cb", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../../node_modules/css-loader/index.js!../../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-96132a24\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./hBody.vue", function() {
+     var newContent = require("!!../../../../../../node_modules/css-loader/index.js!../../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-96132a24\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./hBody.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-e724e628\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/fBody.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-e724e628\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/fBody.vue");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js")("3727e682", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../../../node_modules/css-loader/index.js!../../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-e724e628\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./fBody.vue", function() {
+     var newContent = require("!!../../../../../../node_modules/css-loader/index.js!../../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-e724e628\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./fBody.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./resources/assets/js/app.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_router__ = __webpack_require__("./node_modules/vue-router/dist/vue-router.esm.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routes__ = __webpack_require__("./resources/assets/js/routes/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__store__ = __webpack_require__("./resources/assets/js/store/index.js");
 __webpack_require__("./resources/assets/js/bootstrap.js");
 
 window.Vue = __webpack_require__("./node_modules/vue/dist/vue.common.js");
+window.axios = __webpack_require__("./node_modules/axios/index.js");
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
 
-Vue.component('example-component', __webpack_require__("./resources/assets/js/components/ExampleComponent.vue"));
+
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_vue_router__["default"]);
+
+
+
 
 var app = new Vue({
-  el: '#app'
-});
+    router: __WEBPACK_IMPORTED_MODULE_1__routes__["a" /* default */],
+    store: __WEBPACK_IMPORTED_MODULE_2__store__["a" /* default */]
+}).$mount('#app');
 
 /***/ }),
 
@@ -6627,21 +15736,25 @@ if (token) {
 
 /***/ }),
 
-/***/ "./resources/assets/js/components/ExampleComponent.vue":
+/***/ "./resources/assets/js/components/news/index/bBody.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-3b5bd0e8\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/bBody.vue")
+}
 var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
 /* script */
-var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/ExampleComponent.vue")
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/news/index/bBody.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-0ca92eac\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/ExampleComponent.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-3b5bd0e8\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/news/index/bBody.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-3b5bd0e8"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -6652,7 +15765,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\ExampleComponent.vue"
+Component.options.__file = "resources\\assets\\js\\components\\news\\index\\bBody.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -6661,9 +15774,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0ca92eac", Component.options)
+    hotAPI.createRecord("data-v-3b5bd0e8", Component.options)
   } else {
-    hotAPI.reload("data-v-0ca92eac", Component.options)
+    hotAPI.reload("data-v-3b5bd0e8", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -6672,6 +15785,438 @@ if (false) {(function () {
 
 module.exports = Component.exports
 
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/news/index/fBody.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-e724e628\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/fBody.vue")
+}
+var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
+/* script */
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/news/index/fBody.vue")
+/* template */
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-e724e628\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/news/index/fBody.vue")
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-e724e628"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\news\\index\\fBody.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-e724e628", Component.options)
+  } else {
+    hotAPI.reload("data-v-e724e628", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/news/index/hBody.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-96132a24\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/news/index/hBody.vue")
+}
+var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
+/* script */
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/news/index/hBody.vue")
+/* template */
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-96132a24\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/news/index/hBody.vue")
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-96132a24"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\news\\index\\hBody.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-96132a24", Component.options)
+  } else {
+    hotAPI.reload("data-v-96132a24", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+
+/***/ "./resources/assets/js/routes/index.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__("./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__("./node_modules/vue-router/dist/vue-router.esm.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_news_index_hBody_vue__ = __webpack_require__("./resources/assets/js/components/news/index/hBody.vue");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_news_index_hBody_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_news_index_hBody_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_news_index_bBody_vue__ = __webpack_require__("./resources/assets/js/components/news/index/bBody.vue");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_news_index_bBody_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_news_index_bBody_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_news_index_fBody_vue__ = __webpack_require__("./resources/assets/js/components/news/index/fBody.vue");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_news_index_fBody_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_news_index_fBody_vue__);
+
+
+
+
+
+
+
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_router__["default"]);
+
+var routes = [{
+    path: '/',
+    components: {
+        hBody: __WEBPACK_IMPORTED_MODULE_2__components_news_index_hBody_vue___default.a,
+        bBody: __WEBPACK_IMPORTED_MODULE_3__components_news_index_bBody_vue___default.a,
+        fBody: __WEBPACK_IMPORTED_MODULE_4__components_news_index_fBody_vue___default.a
+    }
+}];
+
+/* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_1_vue_router__["default"]({
+    mode: 'history',
+    base: '/admin',
+    routes: routes
+}));
+
+/***/ }),
+
+/***/ "./resources/assets/js/store/index.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__("./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vuex__ = __webpack_require__("./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modules_News__ = __webpack_require__("./resources/assets/js/store/modules/News/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modules_News_single__ = __webpack_require__("./resources/assets/js/store/modules/News/single.js");
+
+
+
+
+
+
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vuex__["default"]);
+
+var debug = "development" !== 'production';
+
+/* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_1_vuex__["default"].Store({
+    modules: {
+        NewsIndex: __WEBPACK_IMPORTED_MODULE_2__modules_News__["a" /* default */],
+        NewsSingle: __WEBPACK_IMPORTED_MODULE_3__modules_News_single__["a" /* default */]
+    },
+    strict: debug
+}));
+
+/***/ }),
+
+/***/ "./resources/assets/js/store/modules/News/index.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function initialState() {
+    return {
+        all: [],
+        relationships: {
+            'user': 'name'
+        },
+        query: {},
+        loading: false
+    };
+}
+
+var getters = {
+    data: function data(state) {
+        var rows = state.all;
+
+        if (state.query.sort) {
+            rows = _.orderBy(state.all, state.query.sort, state.query.order);
+        }
+
+        return rows.slice(state.query.offset, state.query.offset + state.query.limit);
+    },
+    total: function total(state) {
+        return state.all.length;
+    },
+    loading: function loading(state) {
+        return state.loading;
+    },
+    relationships: function relationships(state) {
+        return state.relationships;
+    }
+};
+
+var actions = {
+    fetchData: function fetchData(_ref) {
+        var commit = _ref.commit,
+            state = _ref.state;
+
+        commit('setLoading', true);
+
+        axios.get('/api/v1/news').then(function (response) {
+            commit('setAll', response.data.data);
+        }).catch(function (error) {
+            message = error.response.data.message || error.message;
+            commit('setError', message);
+            console.log(message);
+        }).finally(function () {
+            commit('setLoading', false);
+        });
+    },
+    setQuery: function setQuery(_ref2, value) {
+        var commit = _ref2.commit;
+
+        commit('setQuery', purify(value));
+    },
+    resetState: function resetState(_ref3) {
+        var commit = _ref3.commit;
+
+        commit('resetState');
+    }
+};
+
+var mutations = {
+    setAll: function setAll(state, items) {
+        state.all = items;
+    },
+    setLoading: function setLoading(state, loading) {
+        state.loading = loading;
+    },
+    setQuery: function setQuery(state, query) {
+        state.query = query;
+    },
+    resetState: function resetState(state) {
+        state = Object.assign(state, initialState());
+    }
+};
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+    namespaced: true,
+    state: initialState,
+    getters: getters,
+    actions: actions,
+    mutations: mutations
+});
+
+/***/ }),
+
+/***/ "./resources/assets/js/store/modules/News/single.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function initialState() {
+    return {
+        item: {
+            id: null,
+            name_imf: null,
+            imf: null,
+            img: null,
+            user: null
+        },
+        usersAll: [],
+        loading: false
+    };
+}
+
+var getters = {
+    item: function item(state) {
+        return state.item;
+    },
+    loading: function loading(state) {
+        return state.loading;
+    },
+    usersAll: function usersAll(state) {
+        return state.usersAll;
+    }
+};
+
+var actions = {
+    storeData: function storeData(_ref) {
+        var commit = _ref.commit,
+            state = _ref.state,
+            dispatch = _ref.dispatch;
+
+        commit('setLoading', true);
+        dispatch('Alert/resetState', null, { root: true });
+
+        return new Promise(function (resolve, reject) {
+            var params = _.cloneDeep(state.item);
+            if (!_.isEmpty(params.user)) {
+                params.user_id = params.user.id;
+            }
+
+            axios.post('/api/v1/news', params).then(function (response) {
+                commit('resetState');
+                resolve();
+            }).catch(function (error) {
+                var message = error.response.data.message || error.message;
+                var errors = error.response.data.errors;
+
+                dispatch('Alert/setAlert', { message: message, errors: errors, color: 'danger' }, { root: true });
+
+                reject(error);
+            }).finally(function () {
+                commit('setLoading', false);
+            });
+        });
+    },
+    updateData: function updateData(_ref2) {
+        var commit = _ref2.commit,
+            state = _ref2.state,
+            dispatch = _ref2.dispatch;
+
+        commit('setLoading', true);
+        dispatch('Alert/resetState', null, { root: true });
+
+        return new Promise(function (resolve, reject) {
+            var params = _.cloneDeep(state.item);
+            if (!_.isEmpty(params.user)) {
+                params.user_id = params.user.id;
+            }
+
+            axios.put('/api/v1/news/' + params.id, params).then(function (response) {
+                commit('setItem', response.data.data);
+                resolve();
+            }).catch(function (error) {
+                var message = error.response.data.message || error.message;
+                var errors = error.response.data.errors;
+
+                dispatch('Alert/setAlert', { message: message, errors: errors, color: 'danger' }, { root: true });
+
+                reject(error);
+            }).finally(function () {
+                commit('setLoading', false);
+            });
+        });
+    },
+    fetchData: function fetchData(_ref3, id) {
+        var commit = _ref3.commit,
+            dispatch = _ref3.dispatch;
+
+        axios.get('/api/v1/news/' + id).then(function (response) {
+            commit('setItem', response.data.data);
+        });
+
+        dispatch('fetchUsersAll');
+    },
+    fetchUsersAll: function fetchUsersAll(_ref4) {
+        var commit = _ref4.commit;
+
+        axios.get('/api/v1/users').then(function (response) {
+            commit('setUsersAll', response.data.data);
+        });
+    },
+    setName_Imf: function setName_Imf(_ref5, value) {
+        var commit = _ref5.commit;
+
+        commit('setName_Imf', value);
+    },
+    setImf: function setImf(_ref6, value) {
+        var commit = _ref6.commit;
+
+        commit('setImf', value);
+    },
+    setImg: function setImg(_ref7, value) {
+        var commit = _ref7.commit;
+
+        commit('setImg', value);
+    },
+    setUser: function setUser(_ref8, value) {
+        var commit = _ref8.commit;
+
+        commit('setUser', value);
+    },
+    resetState: function resetState(_ref9) {
+        var commit = _ref9.commit;
+
+        commit('resetState');
+    }
+};
+
+var mutations = {
+    setItem: function setItem(state, item) {
+        state.item = item;
+    },
+    setName_Imf: function setName_Imf(state, value) {
+        state.item.name_imf = value;
+    },
+    setImf: function setImf(state, value) {
+        state.item.imf = value;
+    },
+    setImg: function setImg(state, value) {
+        state.item.img = value;
+    },
+    setUser: function setUser(state, value) {
+        state.item.user = value;
+    },
+    setUsersAll: function setUsersAll(state, value) {
+        state.usersAll = value;
+    },
+    setLoading: function setLoading(state, loading) {
+        state.loading = loading;
+    },
+    resetState: function resetState(state) {
+        state = Object.assign(state, initialState());
+    }
+};
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+    namespaced: true,
+    state: initialState,
+    getters: getters,
+    actions: actions,
+    mutations: mutations
+});
 
 /***/ }),
 

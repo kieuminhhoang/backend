@@ -4,5 +4,5 @@ Route::group(['prefix' => '/v1', 'middleware' => ['auth:api'], 'namespace' => 'A
     Route::post('change-password', 'ChangePasswordController@changePassword')->name('auth.change_password');
     Route::apiResource('roles', 'RolesController');
     Route::apiResource('users', 'UsersController');
-    Route::apiResource('news', 'Newscontroller');
+    Route::apiResource('news', 'NewsController');
 });

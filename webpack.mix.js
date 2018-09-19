@@ -1,4 +1,17 @@
 let mix = require('laravel-mix');
+const path = require('path');
+
+/*
+|--------------------------------------------------------------------------
+| Mix Asset Management
+|--------------------------------------------------------------------------
+|
+| Mix provides a clean, fluent API for defining some Webpack build steps
+| for your Laravel application. By default, we are compiling the Sass
+| file for the application as well as bundling up all the JS files.
+|
+*/
+
 
 /*
  |--------------------------------------------------------------------------
@@ -11,10 +24,9 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
-
-mix.js('resources/client/assets/js/app.js', 'public/client/js')
+ mix.js('resources/assets/js/app.js', 'public/js')
+    .sass('resources/assets/sass/app.scss', 'public/css')     
+    .js('resources/client/assets/js/app.js', 'public/client/js')
     .sass('resources/client/assets/sass/app.scss', 'public/client/css')
     .extract([
         'axios',
@@ -29,7 +41,7 @@ mix.js('resources/client/assets/js/app.js', 'public/client/js')
     ])
     .version();
 
-mix.autoload({
+ mix.autoload({
     'jquery': ['$', 'window.jQuery', 'jQuery'],
     'moment': ['moment','window.moment'],
 });

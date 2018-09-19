@@ -420,14 +420,6 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -438,35 +430,32 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
         };
     },
 
-    computed: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])('EmployeesSingle', ['item', 'loading', 'companiesAll'])),
+    computed: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])('NewsSingle', ['item', 'loading', 'usersAll'])),
     created: function created() {
-        this.fetchCompaniesAll();
+        this.fetchUsersAll();
     },
     destroyed: function destroyed() {
         this.resetState();
     },
 
-    methods: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])('EmployeesSingle', ['storeData', 'resetState', 'setCompany', 'setFirst_name', 'setLast_name', 'setEmail', 'setPhone', 'fetchCompaniesAll']), {
-        updateCompany: function updateCompany(value) {
-            this.setCompany(value);
+    methods: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])('NewsSingle', ['storeData', 'resetState', 'setName_Imf', 'setImf', 'setImg', 'setUser', 'fetchUsersAll']), {
+        updateName_Imf: function updateName_Imf(e) {
+            this.setName_Imf(e.target.value);
         },
-        updateFirst_name: function updateFirst_name(e) {
-            this.setFirst_name(e.target.value);
+        updateImf: function updateImf(e) {
+            this.setImf(e.target.value);
         },
-        updateLast_name: function updateLast_name(e) {
-            this.setLast_name(e.target.value);
+        updateImg: function updateImg(e) {
+            this.setImg(e.target.value);
         },
-        updateEmail: function updateEmail(e) {
-            this.setEmail(e.target.value);
-        },
-        updatePhone: function updatePhone(e) {
-            this.setPhone(e.target.value);
+        updateUser: function updateUser(value) {
+            this.setUser(value);
         },
         submitForm: function submitForm() {
             var _this = this;
 
             this.storeData().then(function () {
-                _this.$router.push({ name: 'employees.index' });
+                _this.$router.push({ name: 'news.index' });
                 _this.$eventHub.$emit('create-success');
             }).catch(function (error) {
                 console.error(error);
@@ -483,99 +472,6 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex__ = __webpack_require__("./node_modules/vuex/dist/vuex.esm.js");
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -584,55 +480,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-    data: function data() {
-        return {
-            // Code...
-        };
-    },
-
-    computed: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])('EmployeesSingle', ['item', 'loading', 'companiesAll'])),
-    created: function created() {
-        this.fetchData(this.$route.params.id);
-    },
-    destroyed: function destroyed() {
-        this.resetState();
-    },
-
-    watch: {
-        "$route.params.id": function $routeParamsId() {
-            this.resetState();
-            this.fetchData(this.$route.params.id);
-        }
-    },
-    methods: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])('EmployeesSingle', ['fetchData', 'updateData', 'resetState', 'setCompany', 'setFirst_name', 'setLast_name', 'setEmail', 'setPhone']), {
-        updateCompany: function updateCompany(value) {
-            this.setCompany(value);
-        },
-        updateFirst_name: function updateFirst_name(e) {
-            this.setFirst_name(e.target.value);
-        },
-        updateLast_name: function updateLast_name(e) {
-            this.setLast_name(e.target.value);
-        },
-        updateEmail: function updateEmail(e) {
-            this.setEmail(e.target.value);
-        },
-        updatePhone: function updatePhone(e) {
-            this.setPhone(e.target.value);
-        },
-        submitForm: function submitForm() {
-            var _this = this;
-
-            this.updateData().then(function () {
-                _this.$router.push({ name: 'employees.index' });
-                _this.$eventHub.$emit('update-success');
-            }).catch(function (error) {
-                console.error(error);
-            });
-        }
-    })
-});
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -713,7 +561,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
-            columns: [{ title: '#', field: 'id', sortable: true, colStyle: 'width: 50px;' }, { title: 'Company', field: 'company', tdComp: __WEBPACK_IMPORTED_MODULE_2__dtmodules_DatatableSingle___default.a }, { title: 'First name', field: 'first_name', sortable: true }, { title: 'Last name', field: 'last_name', sortable: true }, { title: 'Email', field: 'email', sortable: true }, { title: 'Actions', tdComp: __WEBPACK_IMPORTED_MODULE_1__dtmodules_DatatableActions___default.a, visible: true, thClass: 'text-right', tdClass: 'text-right', colStyle: 'width: 130px;' }],
+            columns: [{ title: '#', field: 'id', sortable: true, colStyle: 'width: 50px;' }, { title: 'Name_Imf', field: 'name_imf', sortable: true }, { title: 'Name_Poster', field: 'user', tdComp: __WEBPACK_IMPORTED_MODULE_2__dtmodules_DatatableSingle___default.a }, { title: 'Actions', tdComp: __WEBPACK_IMPORTED_MODULE_1__dtmodules_DatatableActions___default.a, visible: true, thClass: 'text-right', tdClass: 'text-right', colStyle: 'width: 130px;' }],
             query: { sort: 'id', order: 'desc' },
             xprops: {
                 module: 'NewsIndex',
@@ -729,7 +577,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
         this.resetState();
     },
 
-    computed: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])('EmployeesIndex', ['data', 'total', 'loading', 'relationships'])),
+    computed: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapGetters"])('NewsIndex', ['data', 'total', 'loading', 'relationships'])),
     watch: {
         query: {
             handler: function handler(query) {
@@ -739,7 +587,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
             deep: true
         }
     },
-    methods: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])('EmployeesIndex', ['fetchData', 'setQuery', 'resetState']))
+    methods: _extends({}, Object(__WEBPACK_IMPORTED_MODULE_0_vuex__["mapActions"])('NewsIndex', ['fetchData', 'setQuery', 'resetState']))
 });
 
 /***/ }),
@@ -752,10 +600,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuex__ = __webpack_require__("./node_modules/vuex/dist/vuex.esm.js");
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-//
-//
-//
-//
 //
 //
 //
@@ -1933,7 +1777,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -1963,7 +1807,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -2083,7 +1927,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -2173,7 +2017,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -22281,7 +22125,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "content-header" }, [
-      _c("h1", [_vm._v("Employees")])
+      _c("h1", [_vm._v("News")])
     ])
   },
   function() {
@@ -22430,183 +22274,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "section",
-    { staticClass: "content-wrapper", staticStyle: { "min-height": "960px" } },
-    [
-      _vm._m(0),
-      _vm._v(" "),
-      _c("section", { staticClass: "content" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-xs-12" }, [
-            _c(
-              "form",
-              {
-                on: {
-                  submit: function($event) {
-                    $event.preventDefault()
-                    return _vm.submitForm($event)
-                  }
-                }
-              },
-              [
-                _c(
-                  "div",
-                  { staticClass: "box" },
-                  [
-                    _vm._m(1),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "box-body" },
-                      [_c("back-buttton")],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c("bootstrap-alert"),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "box-body" }, [
-                      _c(
-                        "div",
-                        { staticClass: "form-group" },
-                        [
-                          _c("label", { attrs: { for: "company" } }, [
-                            _vm._v("Company")
-                          ]),
-                          _vm._v(" "),
-                          _c("v-select", {
-                            attrs: {
-                              name: "company",
-                              label: "name",
-                              value: _vm.item.company,
-                              options: _vm.companiesAll
-                            },
-                            on: { input: _vm.updateCompany }
-                          })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("label", { attrs: { for: "first_name" } }, [
-                          _vm._v("First name")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "text",
-                            name: "first_name",
-                            placeholder: "Enter First name"
-                          },
-                          domProps: { value: _vm.item.first_name },
-                          on: { input: _vm.updateFirst_name }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("label", { attrs: { for: "last_name" } }, [
-                          _vm._v("Last name")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "text",
-                            name: "last_name",
-                            placeholder: "Enter Last name"
-                          },
-                          domProps: { value: _vm.item.last_name },
-                          on: { input: _vm.updateLast_name }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("label", { attrs: { for: "email" } }, [
-                          _vm._v("Email")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "email",
-                            name: "email",
-                            placeholder: "Enter Email"
-                          },
-                          domProps: { value: _vm.item.email },
-                          on: { input: _vm.updateEmail }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("label", { attrs: { for: "phone" } }, [
-                          _vm._v("Phone")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "text",
-                            name: "phone",
-                            placeholder: "Enter Phone"
-                          },
-                          domProps: { value: _vm.item.phone },
-                          on: { input: _vm.updatePhone }
-                        })
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "box-footer" },
-                      [
-                        _c(
-                          "vue-button-spinner",
-                          {
-                            staticClass: "btn btn-primary btn-sm",
-                            attrs: {
-                              isLoading: _vm.loading,
-                              disabled: _vm.loading
-                            }
-                          },
-                          [
-                            _vm._v(
-                              "\n                                Save\n                            "
-                            )
-                          ]
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ]
-            )
-          ])
-        ])
-      ])
-    ]
-  )
+  return _c("div")
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "content-header" }, [
-      _c("h1", [_vm._v("Employees")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "box-header with-border" }, [
-      _c("h3", { staticClass: "box-title" }, [_vm._v("Edit")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
@@ -23302,94 +22972,73 @@ var render = function() {
                     _c("bootstrap-alert"),
                     _vm._v(" "),
                     _c("div", { staticClass: "box-body" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "name_imf" } }, [
+                          _vm._v("Name_Imf")
+                        ]),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            name: "name_imf",
+                            placeholder: "Enter Name_Imf"
+                          },
+                          domProps: { value: _vm.item.name_imf },
+                          on: { input: _vm.updateName_Imf }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "Imf" } }, [_vm._v("Imf")]),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            name: "imf",
+                            placeholder: "Enter Imf"
+                          },
+                          domProps: { value: _vm.item.imf },
+                          on: { input: _vm.updateImf }
+                        })
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("label", { attrs: { for: "img" } }, [_vm._v("Img")]),
+                        _vm._v(" "),
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "file",
+                            name: "img",
+                            placeholder: "Enter Password"
+                          },
+                          domProps: { value: _vm.item.img },
+                          on: { input: _vm.updateImg }
+                        })
+                      ]),
+                      _vm._v(" "),
                       _c(
                         "div",
                         { staticClass: "form-group" },
                         [
-                          _c("label", { attrs: { for: "company" } }, [
-                            _vm._v("Company")
+                          _c("label", { attrs: { for: "user" } }, [
+                            _vm._v("Poster_Name")
                           ]),
                           _vm._v(" "),
                           _c("v-select", {
                             attrs: {
-                              name: "company",
+                              name: "user",
                               label: "name",
-                              value: _vm.item.company,
-                              options: _vm.companiesAll
+                              value: _vm.item.user,
+                              options: _vm.usersAll
                             },
-                            on: { input: _vm.updateCompany }
+                            on: { input: _vm.updateUser }
                           })
                         ],
                         1
-                      ),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("label", { attrs: { for: "first_name" } }, [
-                          _vm._v("First name")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "text",
-                            name: "first_name",
-                            placeholder: "Enter First name"
-                          },
-                          domProps: { value: _vm.item.first_name },
-                          on: { input: _vm.updateFirst_name }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("label", { attrs: { for: "last_name" } }, [
-                          _vm._v("Last name")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "text",
-                            name: "last_name",
-                            placeholder: "Enter Last name"
-                          },
-                          domProps: { value: _vm.item.last_name },
-                          on: { input: _vm.updateLast_name }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("label", { attrs: { for: "email" } }, [
-                          _vm._v("Email")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "email",
-                            name: "email",
-                            placeholder: "Enter Email"
-                          },
-                          domProps: { value: _vm.item.email },
-                          on: { input: _vm.updateEmail }
-                        })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "form-group" }, [
-                        _c("label", { attrs: { for: "phone" } }, [
-                          _vm._v("Phone")
-                        ]),
-                        _vm._v(" "),
-                        _c("input", {
-                          staticClass: "form-control",
-                          attrs: {
-                            type: "text",
-                            name: "phone",
-                            placeholder: "Enter Phone"
-                          },
-                          domProps: { value: _vm.item.phone },
-                          on: { input: _vm.updatePhone }
-                        })
-                      ])
+                      )
                     ]),
                     _vm._v(" "),
                     _c(
@@ -23407,7 +23056,7 @@ var render = function() {
                           },
                           [
                             _vm._v(
-                              "\n                                Save\n                            "
+                              "\n                                    Save\n                                "
                             )
                           ]
                         )
@@ -23431,7 +23080,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "content-header" }, [
-      _c("h1", [_vm._v("Employees")])
+      _c("h1", [
+        _vm._v("\n        News\n        "),
+        _c("small", [_vm._v("Stop Lie")])
+      ])
     ])
   },
   function() {
@@ -24014,27 +23666,35 @@ var render = function() {
                           ]),
                           _vm._v(" "),
                           _c("tr", [
-                            _c("th", [_vm._v("First name")]),
+                            _c("th", [_vm._v("Name")]),
                             _vm._v(" "),
-                            _c("td", [_vm._v(_vm._s(_vm.item.name))])
+                            _c("td", [_vm._v(_vm._s(_vm.item.name_imf))])
                           ]),
                           _vm._v(" "),
                           _c("tr", [
-                            _c("th", [_vm._v("Last name")]),
+                            _c("th", [_vm._v("Imf")]),
                             _vm._v(" "),
                             _c("td", [_vm._v(_vm._s(_vm.item.imf))])
                           ]),
                           _vm._v(" "),
                           _c("tr", [
+                            _c("th", [_vm._v("Img")]),
+                            _vm._v(" "),
+                            _c("td", [_vm._v(_vm._s(_vm.item.img))])
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c("th", [_vm._v("User")]),
+                            _vm._v(" "),
                             _c("td", [
-                              _vm.item.users !== null
+                              _vm.item.user !== null
                                 ? _c(
                                     "span",
                                     { staticClass: "label label-info" },
                                     [
                                       _vm._v(
                                         "\n                                                " +
-                                          _vm._s(_vm.item.users.name) +
+                                          _vm._s(_vm.item.user.name) +
                                           "\n                                            "
                                       )
                                     ]
@@ -24061,7 +23721,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "content-header" }, [
-      _c("h1", [_vm._v("Employees")])
+      _c("h1", [_vm._v("Users")])
     ])
   },
   function() {
@@ -26045,7 +25705,7 @@ function initialState() {
     return {
         all: [],
         relationships: {
-            'users': 'name'
+            'user': 'name'
         },
         query: {},
         loading: false
@@ -26149,9 +25809,10 @@ function initialState() {
     return {
         item: {
             id: null,
-            name: null,
+            name_imf: null,
             imf: null,
-            img: null
+            img: null,
+            user: null
         },
         usersAll: [],
         loading: false
@@ -26239,32 +25900,37 @@ var actions = {
 
         dispatch('fetchUsersAll');
     },
-    fetchCompaniesAll: function fetchCompaniesAll(_ref4) {
+    fetchUsersAll: function fetchUsersAll(_ref4) {
         var commit = _ref4.commit;
 
-        axios.get('/api/v1/news').then(function (response) {
+        axios.get('/api/v1/users').then(function (response) {
             commit('setUsersAll', response.data.data);
         });
     },
-    setCompany: function setCompany(_ref5, value) {
+    setName_Imf: function setName_Imf(_ref5, value) {
         var commit = _ref5.commit;
+
+        commit('setName_Imf', value);
+    },
+    setImf: function setImf(_ref6, value) {
+        var commit = _ref6.commit;
+
+        commit('setImf', value);
+    },
+    setImg: function setImg(_ref7, value) {
+        var commit = _ref7.commit;
+
+        commit('setImg', value);
+    },
+    setUser: function setUser(_ref8, value) {
+        var commit = _ref8.commit;
 
         commit('setUser', value);
     },
-    setFirst_name: function setFirst_name(_ref6, value) {
-        var commit = _ref6.commit;
+    resetState: function resetState(_ref9) {
+        var commit = _ref9.commit;
 
-        commit('setname', value);
-    },
-    setLast_name: function setLast_name(_ref7, value) {
-        var commit = _ref7.commit;
-
-        commit('setimg', value);
-    },
-    setEmail: function setEmail(_ref8, value) {
-        var commit = _ref8.commit;
-
-        commit('setimf', value);
+        commit('resetState');
     }
 };
 
@@ -26272,14 +25938,17 @@ var mutations = {
     setItem: function setItem(state, item) {
         state.item = item;
     },
-    setCompany: function setCompany(state, value) {
-        state.item.name = value;
+    setName_Imf: function setName_Imf(state, value) {
+        state.item.name_imf = value;
     },
-    setFirst_name: function setFirst_name(state, value) {
+    setImf: function setImf(state, value) {
         state.item.imf = value;
     },
-    setLast_name: function setLast_name(state, value) {
+    setImg: function setImg(state, value) {
         state.item.img = value;
+    },
+    setUser: function setUser(state, value) {
+        state.item.user = value;
     },
     setUsersAll: function setUsersAll(state, value) {
         state.usersAll = value;

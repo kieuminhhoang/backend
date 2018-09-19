@@ -3,22 +3,21 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
+// use Illuminate\Database\Eloquent\SoftDeletes;
 
 class News extends Model
 {
-    use SoftDeletes;
     protected $fillable = ['name_imf', 'imf', 'img', 'user_id'];
     protected $hidden = [];
 
-    public function setCompanyIdAttribute($input)
+    public function setUserIdAttribute($input)
     {
         $this->attributes['user_id'] = $input ? $input : null;
     }
 
-    public function company()
+    public function user()
     {
-        return $this->belongsTo(User::class, 'user_id')->withTrashed();
+        return $this->belongsTo(User::class, 'user_id');
     }
 
 }

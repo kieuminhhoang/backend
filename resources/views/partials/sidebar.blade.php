@@ -40,12 +40,13 @@
                 
                 </ul>
             </li><li>
-                <router-link :to="{ name: 'companies.index' }">
+                <router-link :to="{ name: 'news.index' }">
                     <i class="fa fa-gears"></i>
                     <span class="title">{{ ('Show News') }}</span>
                 </router-link>
-            </li><li>
-                <router-link :to="{ name: 'employees.index' }">
+            </li>
+            <li>
+                <router-link :to="{ name: 'news.create' }">
                     <i class="fa fa-gears"></i>
                     <span class="title">{{ ('Create News') }}</span>
                 </router-link>

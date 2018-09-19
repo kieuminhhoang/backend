@@ -24,7 +24,8 @@ class StoreNewsRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name_imf' => 'required',
+            'imf' => 'required',
         ];
     }
 }

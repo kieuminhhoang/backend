@@ -1,10 +1,13 @@
 <template>
     <section class="content-wrapper" style="min-height: 960px;">
-        <section class="content-header">
-            <h1>Employees</h1>
-        </section>
+    <section class="content-header">
+      <h1>
+        News
+        <small>Stop Lie</small>
+      </h1>
+    </section>
 
-        <section class="content">
+          <section class="content">
             <div class="row">
                 <div class="col-xs-12">
                     <form @submit.prevent="submitForm">
@@ -21,58 +24,47 @@
 
                             <div class="box-body">
                                 <div class="form-group">
-                                    <label for="company">Company</label>
+                                    <label for="name_imf">Name_Imf</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            name="name_imf"
+                                            placeholder="Enter Name_Imf"
+                                            :value="item.name_imf"
+                                            @input="updateName_Imf"
+                                            >
+                                </div>
+                                <div class="form-group">
+                                    <label for="Imf">Imf</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            name="imf"
+                                            placeholder="Enter Imf"
+                                            :value="item.imf"
+                                            @input="updateImf"
+                                            >
+                                </div>
+                                <div class="form-group">
+                                    <label for="img">Img</label>
+                                    <input
+                                            type="file"
+                                            class="form-control"
+                                            name="img"
+                                            placeholder="Enter Password"
+                                            :value="item.img"
+                                            @input="updateImg"
+                                            >
+                                </div>
+                                <div class="form-group">
+                                    <label for="user">Poster_Name</label>
                                     <v-select
-                                            name="company"
+                                            name="user"
                                             label="name"
-                                            @input="updateCompany"
-                                            :value="item.company"
-                                            :options="companiesAll"
+                                            @input="updateUser"
+                                            :value="item.user"
+                                            :options="usersAll"
                                             />
-                                </div>
-                                <div class="form-group">
-                                    <label for="first_name">First name</label>
-                                    <input
-                                            type="text"
-                                            class="form-control"
-                                            name="first_name"
-                                            placeholder="Enter First name"
-                                            :value="item.first_name"
-                                            @input="updateFirst_name"
-                                            >
-                                </div>
-                                <div class="form-group">
-                                    <label for="last_name">Last name</label>
-                                    <input
-                                            type="text"
-                                            class="form-control"
-                                            name="last_name"
-                                            placeholder="Enter Last name"
-                                            :value="item.last_name"
-                                            @input="updateLast_name"
-                                            >
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email</label>
-                                    <input
-                                            type="email"
-                                            class="form-control"
-                                            name="email"
-                                            placeholder="Enter Email"
-                                            :value="item.email"
-                                            @input="updateEmail"
-                                            >
-                                </div>
-                                <div class="form-group">
-                                    <label for="phone">Phone</label>
-                                    <input
-                                            type="text"
-                                            class="form-control"
-                                            name="phone"
-                                            placeholder="Enter Phone"
-                                            :value="item.phone"
-                                            @input="updatePhone"
-                                            >
                                 </div>
                             </div>
 
@@ -90,7 +82,7 @@
                 </div>
             </div>
         </section>
-    </section>
+</section>
 </template>
 
 
@@ -104,35 +96,32 @@ export default {
         }
     },
     computed: {
-        ...mapGetters('EmployeesSingle', ['item', 'loading', 'companiesAll'])
+        ...mapGetters('NewsSingle', ['item', 'loading', 'usersAll'])
     },
     created() {
-        this.fetchCompaniesAll()
+        this.fetchUsersAll()
     },
     destroyed() {
         this.resetState()
     },
     methods: {
-        ...mapActions('EmployeesSingle', ['storeData', 'resetState', 'setCompany', 'setFirst_name', 'setLast_name', 'setEmail', 'setPhone', 'fetchCompaniesAll']),
-        updateCompany(value) {
-            this.setCompany(value)
+        ...mapActions('NewsSingle', ['storeData', 'resetState', 'setName_Imf', 'setImf', 'setImg', 'setUser', 'fetchUsersAll']),
+        updateName_Imf(e) {
+            this.setName_Imf(e.target.value)
         },
-        updateFirst_name(e) {
-            this.setFirst_name(e.target.value)
+        updateImf(e) {
+            this.setImf(e.target.value)
         },
-        updateLast_name(e) {
-            this.setLast_name(e.target.value)
+        updateImg(e) {
+            this.setImg(e.target.value)
         },
-        updateEmail(e) {
-            this.setEmail(e.target.value)
-        },
-        updatePhone(e) {
-            this.setPhone(e.target.value)
+        updateUser(value) {
+            this.setUser(value)
         },
         submitForm() {
             this.storeData()
                 .then(() => {
-                    this.$router.push({ name: 'employees.index' })
+                    this.$router.push({ name: 'news.index' })
                     this.$eventHub.$emit('create-success')
                 })
                 .catch((error) => {

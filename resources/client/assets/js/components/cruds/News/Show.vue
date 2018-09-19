@@ -1,7 +1,7 @@
 <template>
     <section class="content-wrapper" style="min-height: 960px;">
         <section class="content-header">
-            <h1>Employees</h1>
+            <h1>Users</h1>
         </section>
 
         <section class="content">
@@ -25,27 +25,23 @@
                                             <th>#</th>
                                             <td>{{ item.id }}</td>
                                         </tr>
-
                                         <tr>
-                                            <th>First name</th>
-                                            <td>{{ item.name }}</td>
+                                            <th>Name</th>
+                                            <td>{{ item.name_imf }}</td>
                                             </tr>
                                         <tr>
-                                            <th>Last name</th>
+                                            <th>Imf</th>
                                             <td>{{ item.imf }}</td>
-                                            </tr>
-                                        <!--<tr>-->
-                                            <!--<th>Email</th>-->
-                                            <!--<td>{{ item.email }}</td>-->
-                                            <!--</tr>-->
-                                        <!--<tr>-->
-                                            <!--<th>Phone</th>-->
-                                            <!--<td>{{ item.phone }}</td>-->
-                                            <!--</tr>-->
+                                        </tr>
                                         <tr>
+                                            <th>Img</th>
+                                            <td>{{ item.img }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>User</th>
                                             <td>
-                                                <span class="label label-info" v-if="item.users !== null">
-                                                    {{ item.users.name }}
+                                                <span class="label label-info" v-if="item.user !== null">
+                                                    {{ item.user.name }}
                                                 </span>
                                             </td>
                                         </tr>

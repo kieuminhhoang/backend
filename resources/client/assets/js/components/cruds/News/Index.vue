@@ -1,7 +1,7 @@
 <template>
     <section class="content-wrapper" style="min-height: 960px;">
         <section class="content-header">
-            <h1>Employees</h1>
+            <h1>News</h1>
         </section>
 
         <section class="content">
@@ -61,10 +61,8 @@ export default {
         return {
             columns: [
                 { title: '#', field: 'id', sortable: true, colStyle: 'width: 50px;' },
-                { title: 'Company', field: 'company', tdComp: DatatableSingle },
-                { title: 'First name', field: 'first_name', sortable: true },
-                { title: 'Last name', field: 'last_name', sortable: true },
-                { title: 'Email', field: 'email', sortable: true },
+                { title: 'Name_Imf', field: 'name_imf', sortable: true },
+                { title: 'Name_Poster', field: 'user', tdComp: DatatableSingle },
                 { title: 'Actions', tdComp: DatatableActions, visible: true, thClass: 'text-right', tdClass: 'text-right', colStyle: 'width: 130px;' }
             ],
             query: { sort: 'id', order: 'desc' },
@@ -82,7 +80,7 @@ export default {
         this.resetState()
     },
     computed: {
-        ...mapGetters('EmployeesIndex', ['data', 'total', 'loading', 'relationships']),
+        ...mapGetters('NewsIndex', ['data', 'total', 'loading', 'relationships']),
     },
     watch: {
         query: {
@@ -93,7 +91,7 @@ export default {
         }
     },
     methods: {
-        ...mapActions('EmployeesIndex', ['fetchData', 'setQuery', 'resetState']),
+        ...mapActions('NewsIndex', ['fetchData', 'setQuery', 'resetState']),
     }
 }
 </script>
