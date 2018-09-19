@@ -10,8 +10,7 @@ Vue.use(VueRouter)
 
 const routes = [
     { 
-        path: '/', 
-    	components: {
+        path: '/',components: {
 	    	hBody: hbody,
 	    	bBody: bbody,
 	    	fBody: fbody,
